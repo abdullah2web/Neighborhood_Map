@@ -6,9 +6,10 @@ In this project the users will find the best places in our neighborhood map.
 
 The Neighborhood Map Project is used as following:
 1. Google Map Api Key.
-2. coding by Javascript, CSS and HTML.
-3. use Vue.js framework.
-4. Bootstrap framework.
+2. Foursquare Api.
+3. coding by Javascript, CSS and HTML.
+4. use Knockout.js framework.
+5. Bootstrap framework.
 
 ## Requirements:
 
