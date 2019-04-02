@@ -1,20 +1,91 @@
 
 html,
 body {
-  font-family: Arial, sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Avant Garde", sans-serif;
 }
 
 #map {
   height: 100%;
+  background-color: #222;
+  color: #fff;
 }
 
-nav {
-  background-color: #17a2b8;
+.nav-bar {
+  background-color: #ecf0f1;
 }
 
-a {
-  color: white;
+.main-title {
+  margin-left: 40px;
+  line-height: 40px;
+}
+
+#search-input {
+  margin: 10px 0px 20px 20px;
+  padding: 10px 80px 5px 10px;
+}
+
+.places {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.places:hover {
+  background-color: #42a5f5;
+}
+
+.title {
+  color: black;
+}
+
+.name,
+.category,
+.address,
+.information {
+  font-family: "Helvetica-neue", sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+
+.info {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #333;
+  font-weight: normal;
+}
+
+/* MEDIA QUERY FOR MOBILE */
+@media screen and (max-width: 480px) {
+  .navbar {
+    margin-bottom: 0px;
+  }
+
+  .main-title {
+    margin-top: 25px;
+    margin-left: 0px;
+    line-height: 0px;
+  }
+
+  #search-input {
+    margin: 10px 20px 0px 0px;
+    padding: 10px 80px 5px 10px;
+  }
+
+  .buttons {
+    margin-top: 15px;
+  }
+}
+
+/* MEDIA QUERY FOR TABLET */
+@media (min-width: 480px) and (max-width: 768px) {
+  #map {
+    height: 100%;
+    background-color: #222;
+    color: #fff;
+  }
+  .nav-bar {
+    background-color: #ecf0f1;
+    width: 50%;
+  }
 }
