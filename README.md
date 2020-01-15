@@ -1,6 +1,6 @@
 # Neighborhood Map Project
 
-In this project the users will find the best places in our neighborhood map.
+In this project the users will find my favorite places in our neighborhood map.
 
 ## Description:
 
